@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Platform Survey</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="center-div">
+      <header>
+        <h1 id="title">Music Platforms</h1>
+        <p id="description">This Survey will help us</p>
+      </header>
+      <form action="" id="survey-form">
+        <div>
+          <label for="name" id="name-label">Name</label>
+          <input
+            name="name"
+            type="name"
+            placeholder="Enter your Full name"
+            id="name"
+          />
+        </div>
+        <div>
+          <label for="email" id="email-label">Email </label>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter a Valid Email"
+          />
+        </div>
+        <div>
+          <label for="number" id="number-label">Age</label>
+
+          <input
+            type="number"
+            name="age"
+            id="number"
+            placeholder="Enter Your Age"
+            min="13"
+            max="99"
+          />
+        </div>
+
+        <label for="platform">Favourite Music Platform</label>
+        <select name="platform" id="dropdown">
+          <option value="spotify">Spotify</option>
+          <option value="ytmusic">Youtube Music</option>
+          <option value="applemusic">Apple Music</option>
+          <option value="soundcloud">Soundcloud</option>
+        </select>
+        <h2>What genre of music you listen to?</h2>
+        <label>
+          <input
+            type="checkbox"
+            name="genre"
+            class="input-checkbox"
+            value="pop"
+          />Pop
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="genre"
+            class="input-checkbox"
+            value="rock"
+          />Rock
+        </label>
+
+        <label>
+          <input
+            type="checkbox"
+            name="genre"
+            class="input-checkbox"
+            value="rap"
+          />Rap
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="genre"
+            class="input-checkbox"
+            value="Indie"
+          />Indie
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="genre"
+            class="input-checkbox"
+            value="bollywood"
+          />Bollywood
+        </label>
+        <h2>Do you enjoy ads in your music?</h2>
+<label>
+<input type="radio" name="opnion">Yes ,I am a Psycopath
+
+</label>
+<label>
+  <input type="radio" name="opnion">No ,I have Premium
+  
+  </label>
+  <h2>Share your Opnion with us</h2>
+  <input type="text" name="Textarea" id="commentarea" placeholder="Write your comments here....">
+<button type="submit" id="submit">Submit</button>      
+</form>
+    </div>
+  </body>
+</html>
