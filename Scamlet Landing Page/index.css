@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif ;
+}
+
+#header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.671);
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 5px 14px 3px rgb(27, 27, 27);
+}
+
+.fa-optin-monster{
+  padding-top: 6px;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+#header-img {
+  max-width: 50px;
+  object-fit: contain;
+}
+
+#logo {
+  display: flex;
+  column-gap: 10px;
+}
+
+#com-name {
+  color: white;
+  padding: 10px 0px 0px 0px;
+  padding-right: 40px;
+  font-family:'Russo One', sans-serif;
+  font-weight: lighter;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+}
+
+#nav-bar {
+  display: flex;
+  margin: 17px 0px 0px 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1);
+}
+
+#email-img-div {
+     /* background-image: url('https://www.parts-people.com/blog/wp-content/uploads/2015/01/CicretBracelet2-300x156.png'); */
+     height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#email-img-div >img {
+  object-fit: cover;
+}
+
+
+#top-div {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 60px;
+    /* background: linear-gradient(to left, #ffffff -34%, #000000 87% ); */
+    background-color: black;
+}
+
+#form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+#form-div >h2 {
+font-size: 60px;
+position: relative;
+
+color: white;
+font-family: 'Bebas Neue', cursive;
+}
+
+#form-div >p {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 650px){
+  #form-div >p {
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+
+#form{
+  align-self: center;
+  justify-self: center;
+  padding-top: 40px;
+}
+
+#submitss{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#submitt {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+#video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  row-gap: 50px;
+  padding: 50px;
+  border: 2px solid rgb(126, 125, 125);
+}
+
+#video > h2 {
+  font-size: 50px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+#pricing-div {
+  display: flex;
+  column-gap: 50px;
+}
+
+.pricebox {
+  border: 1px solid white;
+  padding: 20px 60px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.pricebox >h2 {
+  padding: 20px 0px;
+  color: rgb(255, 217, 0);
+  text-decoration: underline;
+}
+
+.pricebox >p {
+  color: rgb(255, 217, 0);
+}
+
+#features-div {
+  border: 1px solid white;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+#features-div >h2 {
+  font-family: 'Bebas Neue', cursive;
+text-decoration: underline;
+font-size: 50px;
+padding: 50px 0px;
+
+}
+
+
+.feature {
+  display: flex;
+  text-align: left;
+  padding: 20px 20px;
+  
+}
+
+.feature >p {
+  /* font-family: 'Squada One', cursive; */
+  font-weight: 700;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.feature >h2 {
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 10px;
+}
+
+
+.fas{
+ font-size: 50px;
+ padding-right: 20px;
+}
+
+.feature >h2 {
+  padding: 0px 10px;
+}

@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  background-color: #090F28;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 50px;
+  padding: 10px 0px;
+  position: fixed;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+#navbar>a:hover{
+  text-decoration: underline;
+  transform: translateY(5px);
+}
+
+.a:hover{
+  text-decoration: underline;
+  transform: translateY(5px);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.a {
+  padding-right: 10px;
+}
+
+#welcome-section {
+  background-color: #090F28;
+  height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-div {
+  background-image: url("https://c.tenor.com/XtYvizh1Y1UAAAAC/kira-laugh.gif");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 40%;
+  width: 80%;
+  animation: gs 4000ms forwards;
+}
+
+#welcome-section > h1 {
+  font-size: 5em;
+  font-weight: 500;
+  position: relative;
+  top: -80px;
+  color: rgb(255, 255, 255);
+  text-shadow:1px 3px 8px black;
+  animation: appear 4000ms forwards;
+  font-family: 'Poppins', sans-serif;
+}
+
+#welcome-section > h2 {
+  font-size: 5em;
+  font-weight: 500;
+  position: relative;
+  animation: appear 4000ms forwards;
+  animation-timing-function: ease-in;
+  top: -80px;
+  font-family: 'Poppins', sans-serif;
+  color: #54E39B;
+  
+}
+
+
+@keyframes gs {
+  0% {
+    height: 0px;
+  }
+50% {
+    height: 550px;
+}
+  100% {
+    height: 250px;
+  }
+}
+
+
+@keyframes appear {
+  0%,80%{
+    opacity: 0;
+  }
+  
+}
+
+
+
+#projects {
+        background-color:rgb(235, 235, 235) ;
+
+        color: rgb(0, 0, 0);
+        font-family: roboto;
+        font-size: 2.5em;
+        font-weight: lighter;
+        font-family: 'Work Sans', sans-serif;
+        padding-bottom: 30px;
+    }
+
+.project-title {
+  padding: 10px;
+}
+
+
+.project-tile {
+  background-color:rgb(228, 228, 228) ;
+  display: flex;
+  column-gap: 10px;
+}
+
+.project-img{
+ object-fit: contain;
+  height: 240px;
+  
+}
+
+.tile {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight:500;
+  background-color: rgb(194, 194, 194);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.tile:hover{
+  transform: translateY(-5px);
+  opacity: 0.4;
+  box-shadow: 0px 5px 11px 0px rgba(46, 46, 46, 0.555);
+}
+
+
+
+#view-more{
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  border: none;
+background-color:#54E39B ;
+padding:10px;
+margin-left: 45%;
+color: white;
+box-shadow: 0px 5px 11px 0px rgba(46, 46, 46, 0.555);
+cursor: pointer;
+}
+
+#view-more:hover{
+  transform: translateY(-5px);
+  background-color: #3aa16e;
+}
+
+@media (max-width: 61.25em){
+  .project-tile{
+    flex-wrap: wrap;
+  }
+
+  .social-media{
+    flex-wrap: wrap;
+  }
+}
+
+#contact-section{
+  background-color: #03050c;
+  color: white;
+  font-family: "Roboto";
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+}
+
+.social-media{
+  display: flex;
+  font-size: 17px;
+  font-weight: 300;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.fab{
+  padding: 0px;
+  font-size: 23px;
+}
+
+.contact{
+  column-gap: 10px;
+  display: flex;
+  text-align: center;
+}
+
+
+
+.contact:hover{
+text-decoration: underline;
+
+}
